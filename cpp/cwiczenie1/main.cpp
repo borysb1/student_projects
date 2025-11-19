@@ -19,11 +19,20 @@ int main(){
 	int liczba;
 	cin>>liczba;
 
-	if(liczba%liczba==0 &&  liczba%2!=0){
-		cout<<"Liczba pierwsza"<<endl;
+	if(liczba<2){
+		cout<<"liczba nie jest pierwsza"<<endl;
 	}else{
-		cout<<"Nie liczba pierwsza"<<endl;
+		cout<<"pierwsza"<<endl;
+	}
+	for(int i=2; i<liczba; i++){
+		if(liczba%i==0){
+			cout<<"Nie jest pierwsza"<<endl;
+		}else{
+			cout<<"puierwsa"<<endl;
+		}
 	}
 	
 	return 0;
+	
+	
 }
