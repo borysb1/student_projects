@@ -22,15 +22,13 @@ int main(){
 	if(liczba<2){
 		cout<<"liczba nie jest pierwsza"<<endl;
 	}else{
-		cout<<"pierwsza"<<endl;
-	}
-	for(int i=2; i<liczba; i++){
-		if(liczba%i==0){
-			cout<<"Nie jest pierwsza"<<endl;
-		}else{
-			cout<<"puierwsa"<<endl;
-		}
-	}
+		for(int i=2; i<liczba; i++){
+			if(liczba%i==0){
+				cout<<"Nie jest pierwsza"<<endl;
+			}else{
+				cout<<"puierwsa"<<endl;
+			}
+	}}
 	
 	return 0;
 	
